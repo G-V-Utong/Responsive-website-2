@@ -1,0 +1,784 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    
+    
+    /* background-color: red; */
+}
+
+main{
+    background-image: url(img/bg-hero-desktop.svg);
+    height: 100vh;
+    background-color:hsl(193, 100%, 96%);
+}
+
+.header_banner{
+    background-color: none;
+    padding: 50px 80px;
+}
+
+.header_banner input[type="submit"]{
+    float: right;
+    justify-content: right;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-banner input[type="submit"]:hover{
+    color: rgb(138, 138, 138);
+}
+
+.page_1{
+    display: flex;
+    padding: 20px 80px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page_text{
+    width: 50%;
+}
+.page_text h1{
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page_text p{
+    margin-bottom: 40px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page_img {
+    padding-right: 0px;
+}
+
+.page_text input[type="submit"]{
+    background-color: hsl(322, 100%, 66%);
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page_text input[type="submit"]:hover{
+    background-color: hsl(322, 99%, 74%);
+}
+
+.page_2{
+    background-color: white;
+    height: 1200px;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+    height: 300px;
+    padding-top: 30px;
+
+}
+
+.box_1{
+    display: flex;
+    width: 1280px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.box_1 .text_bx1{
+    padding-left: 100px;
+    padding-right: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_bx1 h1{
+    margin-bottom: 20px;
+}
+
+.text_bx1 p{
+    color: rgb(88, 88, 88);
+}
+
+
+.box_2{
+    display: flex;
+    width: 1280px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.box_2 .text_bx2{
+    padding-left: 300px;
+    padding-right: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_bx2 h1{
+    margin-bottom: 20px;
+}
+
+.text_bx2 p{
+    color: rgb(88, 88, 88);
+}
+
+
+.box_3{
+    display: flex;
+    width: 1280px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.box_3 .text_bx3{
+    padding-left: 100px;
+    padding-right: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_bx3 h1{
+    margin-bottom: 20px;
+}
+
+.text_bx3 p{
+    color: rgb(88, 88, 88);
+}
+
+.page_3{
+    height: 450px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin: auto;
+}
+
+.page_3 .subscribe{
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    transform: translate(-0%, -50%);
+    color: black;
+    text-align: center;
+    
+   
+}
+
+
+.subscribe input[type="submit"]{
+    background-color: hsl(322, 100%, 66%);
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.subscribe input[type="submit"]:hover{
+    background-color: hsl(322, 99%, 74%);
+}
+
+.subscribe h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.logo{
+    color: white;
+    width: 800px;
+    padding: 0px 80px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.location{
+    margin-top: 30px;
+    display: flex;
+    height: 40px;
+    width: 450px;
+    
+}
+
+.location p{
+    font-size: small;
+    padding-left: 40px;
+    
+}
+
+.phone{
+    margin-top: 50px;
+    display: flex;
+    height: 40px;
+    
+}
+
+.phone p{
+    font-size: small;
+    padding-left: 30px;
+   
+}
+
+.email{
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    
+}
+
+.email p{
+    font-size: small;
+    padding-left: 30px;
+   
+}
+
+.footer{
+    display: flex;
+    width: 1200px;
+}
+
+.contact{
+    width: 300px;
+    /* padding-left: 50px; */
+    justify-content: center;
+    
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+.about_us{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.what_we_do{
+    margin: 40px;
+    width: 100%;
+}
+.faq{
+    margin: 40px;
+    width: 100%;
+}
+
+.contact_2{
+    width: 300px;
+    /* padding-left: 50px; */
+    justify-content: center;
+    
+    
+}
+
+.contact_2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact_2 a:hover{
+    text-decoration: underline;
+}
+
+.Career{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.blog{
+    margin: 40px;
+}
+.contact_us{
+    margin: 40px;
+}
+
+.contact_3{
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+/* .facebook{
+    margin: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.twitter{
+    margin: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    padding: 0px;
+}
+.instagram{
+    margin: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+} */
+
+.rights{
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 140px;
+    font-size: small;
+}
+
+.loc_logo{
+    height: 20px;
+    width: 20px;
+}
+
+.pho_logo{
+    height: 20px;
+    width: 20px;
+}
+.email_logo{
+    height: 20px;
+    width: 20px;
+}
+
+ @media screen and (max-width: 375px) {
+    .header_banner{
+        background-color: none;
+        padding: 30px 20px;
+        width: 375px;
+    } 
+
+    .header_banner img{
+        margin-top: 10px;
+        width: 100px;
+    }
+
+    .header_banner input[type="submit"]{
+        float: right;
+        border: none;
+        background-color: white;
+        border-radius: 50px;
+        height: 30px;
+        width: 100px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        margin-right: 30px;
+    }
+
+    .page_1{
+        
+        padding: 20px 80px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page_text{
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .page_text h1{
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        padding-bottom: 20px;
+        
+    }
+    
+    .page_text p{
+        margin-bottom: 40px;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+   img{
+    width: 300px;
+   }
+
+   .page_text input[type="submit"]{
+    background-color: hsl(322, 100%, 66%);
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.page_2{
+    background-color: white;
+    height: 1800px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+
+
+.container{
+    width: 375px;
+    margin: auto;
+    height: 1400px;
+    padding-top: 30px;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.box_1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.box_1 .text_bx1{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+
+.text_bx1 h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.together{
+    width: 240px;
+    margin: auto;
+}
+.text_bx1 p{
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+}
+
+.box_2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.box_2 .text_bx2{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+
+.text_bx2 h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.flowing{
+    width: 240px;
+    margin: auto;
+}
+.text_bx2 p{
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+}
+
+.box_3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.box_3 .text_bx3{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+
+.text_bx3 h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.your_users{
+    width: 240px;
+    margin: auto;
+}
+.text_bx3 p{
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+}
+
+.page_3{
+    height: 800px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin: auto;
+}
+
+.page_3 .subscribe{
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    border-radius: 10px;
+    transform: translate(-0%, -50%);
+    color: black;
+    text-align: center;
+    
+   
+}
+
+.logo{
+    color: white;
+    width: 375px;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo_1{
+    width: 200px;
+}
+
+.location{
+    margin-top: 30px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    
+}
+
+.loc_logo{
+    height: 20px;
+    width: 20px;
+}
+.location p{
+    font-size: small;
+    padding-left: 40px;
+    font-size: 12px;
+    
+}
+
+.pho_logo{
+    height: 20px;
+    width: 20px;
+}
+.phone{
+    margin-top: 50px;
+    display: flex;
+    height: 40px;
+    
+}
+
+.phone p{
+    font-size: small;
+    padding-left: 30px;
+   
+}
+
+.email_logo{
+    height: 20px;
+    width: 20px;
+}
+.email{
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    
+}
+
+.email p{
+    font-size: small;
+    padding-left: 30px;
+   
+}
+
+
+.contact{
+    justify-content: left;
+    /* margin: 5px; */
+    padding: none;  
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+.about_us{
+    margin: 10px;
+    
+}
+
+.what_we_do{
+    margin: 10px;
+
+}
+.faq{
+    margin: 10px;
+}
+
+.contact_2{
+    width: 300px;
+    /* padding-left: 10px; */
+    justify-content: center;
+    
+    
+}
+
+.contact_2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact_2 a:hover{
+    text-decoration: underline;
+}
+
+.Career{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blog{
+    margin: 10px;
+}
+.contact_us{
+    margin: 10px;
+}
+
+.contact_3{
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.facebook{
+    margin: none;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 35px; 
+    height: 35px;
+    margin-top: 0%;
+}
+
+.twitter{
+    margin-top: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 0px;
+    width: 30px; 
+    height:30px;
+}
+.instagram{
+    margin-top: 3px;
+    cursor: pointer;
+    width: 30px; 
+    height:30px;
+}
+
+.rights{
+    
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    width: 300px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+} 
