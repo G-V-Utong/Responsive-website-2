@@ -1,3 +1,4 @@
 # Responsive-website-2
+# Link to Hosted Page
 
-https://github.com/G-V-Utong/Responsive-website-2/find/main
+https://g-v-utong.github.io/Responsive-website-2/
