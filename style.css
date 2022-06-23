@@ -351,7 +351,7 @@ main{
     
 }
 
-/* .facebook{
+.facebook{
     margin: 20px;
     margin-left: 40px;
     cursor: pointer;
@@ -367,7 +367,7 @@ main{
     margin: 40px;
     margin-top: 25px;
     cursor: pointer;
-} */
+}
 
 .rights{
     float: right;
